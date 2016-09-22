@@ -20,7 +20,4 @@ public class Inversion {
         return funds;
     }
 
-    public double getRentabilidad(){
-        return funds*(plazoFijo.getInterest()/100);
-    }
 }

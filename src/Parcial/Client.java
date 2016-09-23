@@ -1,8 +1,5 @@
 package Parcial;
 
-/**
- * Created by Tomas on 16-Sep-16.
- */
 public class Client {
     private Portfolio portfolio = new Portfolio();
     private double funds;

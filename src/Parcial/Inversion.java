@@ -4,16 +4,16 @@ package Parcial;
  * Created by Tomas on 16-Sep-16.
  */
 public class Inversion {
-    private PlazoFijo plazoFijo;
+    private FixedTerm fixedTerm;
     private double funds;
 
-    public Inversion(double funds, PlazoFijo plazoFijo) {
+    public Inversion(double funds, FixedTerm fixedTerm) {
         this.funds = funds;
-        this.plazoFijo = plazoFijo;
+        this.fixedTerm = fixedTerm;
     }
 
-    public PlazoFijo getPlazoFijo() {
-        return plazoFijo;
+    public FixedTerm getFixedTerm() {
+        return fixedTerm;
     }
 
     public double getFunds() {

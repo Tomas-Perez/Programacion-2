@@ -15,9 +15,9 @@ public class Cliente {
         return funds;
     }
 
-    public void invest(double investment, PlazoFijo plazoFijo){
+    public void invest(double investment, FixedTerm fixedTerm){
         if(investment<funds) {
-            Inversion inversion = new Inversion(investment, plazoFijo);
+            Inversion inversion = new Inversion(investment, fixedTerm);
             portfolio.addInversion(inversion);
             funds -= investment;
         }
@@ -27,7 +27,7 @@ public class Cliente {
 
     public void withdrawInvestment(Inversion inversion){
         try{
-        funds += portfolio.withdrawInversion(inversion);
+            funds += portfolio.withdrawInversion(inversion);
         }
 
         catch (NoSuchInversionExc e){
@@ -35,7 +35,7 @@ public class Cliente {
         }
     }
 
-    public double getProyectedFunds(int daysAfterDeposit){
-        return portfolio.getProyectedFunds(daysAfterDeposit) + funds;
+    public double getProjectedFunds(int daysAfterDeposit){
+        return portfolio.getProjectedFunds(daysAfterDeposit) + funds;
     }
 }

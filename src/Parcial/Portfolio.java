@@ -26,8 +26,8 @@ public class Portfolio {
         for(Inversion inversion: inversions){
             if(inversion == anInversion){
                 double funds = inversion.getFunds();
-                int interest = inversion.getFixedTerm().getInterest();
-                return funds*(interest/100);
+                double interest = inversion.getFixedTerm().getInterest();
+                return (funds*(interest/100));
             }
         }
         throw new NoSuchInversionExc();
@@ -36,9 +36,14 @@ public class Portfolio {
     public double getProjectedFunds(int daysAfterDeposit) {
         double projectedFunds = 0;
         for (Inversion inversion : inversions) {
-            projectedFunds += getRentability(inversion) * (daysAfterDeposit / 365);
+            projectedFunds +=  getRentability(inversion) *  ((double) daysAfterDeposit / 365);
             projectedFunds += inversion.getFunds();
         }
         return projectedFunds;
     }
+
+    public ArrayList<Inversion> getInversions() {
+        return inversions;
+    }
+
 }

@@ -3,11 +3,11 @@ package Parcial;
 /**
  * Created by Tomas on 16-Sep-16.
  */
-public class Cliente {
-    Portfolio portfolio = new Portfolio();
-    double funds;
+public class Client {
+    private Portfolio portfolio = new Portfolio();
+    private double funds;
 
-    public Cliente(double funds) {
+    public Client(double funds) {
         this.funds = funds;
     }
 
@@ -16,13 +16,12 @@ public class Cliente {
     }
 
     public void invest(double investment, FixedTerm fixedTerm){
-        if(investment<funds) {
+        if(investment<=funds) {
             Inversion inversion = new Inversion(investment, fixedTerm);
             portfolio.addInversion(inversion);
             funds -= investment;
         }
-
-        throw new NoMoneyExc();
+        else throw new NoMoneyExc();
     }
 
     public void withdrawInvestment(Inversion inversion){
@@ -37,5 +36,9 @@ public class Cliente {
 
     public double getProjectedFunds(int daysAfterDeposit){
         return portfolio.getProjectedFunds(daysAfterDeposit) + funds;
+    }
+
+    public Portfolio getPortfolio() {
+        return portfolio;
     }
 }

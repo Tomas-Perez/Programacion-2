@@ -15,4 +15,14 @@ public class Catalogue {
     public HashMap<Drink, Double> getCatalogue() {
         return catalogue;
     }
+
+    public HashMap<Drink, Double> filter(Filter filter){
+        HashMap<Drink, Double> filteredCatalogue = new HashMap<>();
+        for (HashMap.Entry<Drink, Double> element: catalogue.entrySet()){
+            if(filter.filterThis(element.getKey(), element.getValue())){
+                filteredCatalogue.put(element.getKey(), element.getValue());
+            }
+        }
+        return filteredCatalogue;
+    }
 }

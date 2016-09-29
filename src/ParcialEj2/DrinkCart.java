@@ -19,7 +19,7 @@ public class DrinkCart {
                 return;
             }
         }
-        throw new NoSuchDrinkExc();
+        throw new NoSuchDrinkExc(drink.getType());
     }
 
     public ArrayList<Drink> getDrinks() {

@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  */
 public class DrinkCartTest {
     DrinkCart drinkCart = new DrinkCart();
-    Coke coke = new Coke(500);
+    Drink coke = new Drink(500, "coke");
 
     @Test
     public void addDrink() throws Exception {
@@ -26,14 +26,10 @@ public class DrinkCartTest {
         assertTrue(drinkCart.getDrinks().isEmpty());
     }
 
-    @Test
+    @Test (expected = NoSuchDrinkExc.class)
     public void removeDrinkExc() throws Exception{
-
+        drinkCart.removeDrink(coke);
     }
 
-    @Test
-    public void getDrinks() throws Exception {
-
-    }
 
 }

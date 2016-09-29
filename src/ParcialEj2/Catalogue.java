@@ -16,6 +16,17 @@ public class Catalogue {
         return catalogue;
     }
 
+    public boolean isDrinkCatalogued(Drink drink){
+        if(catalogue.containsKey(drink))
+            return true;
+        throw new UncataloguedDrinkExc(drink.getType());
+    }
+
+    public double getDrinkPrice(Drink drink){
+        isDrinkCatalogued(drink);
+        return catalogue.get(drink);
+    }
+
     public HashMap<Drink, Double> filter(Filter filter){
         HashMap<Drink, Double> filteredCatalogue = new HashMap<>();
         for (HashMap.Entry<Drink, Double> element: catalogue.entrySet()){

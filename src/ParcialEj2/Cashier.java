@@ -1,6 +1,5 @@
 package ParcialEj2;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 /**
@@ -8,23 +7,43 @@ import java.util.HashMap;
  */
 public class Cashier {
 
-    public Invoice checkout(DrinkCart cart, Catalogue catalogue){
-        Invoice invoice = new Invoice();
-        HashMap<Drink, Double> drinkPrices = catalogue.getCatalogue();
-        double total = 0;
-        for (Drink drink: cart.getDrinks()) {
-            if(drinkPrices.containsKey(drink))
-                invoice.getDrinks().put(drink, drinkPrices.get(drink));
-                total += getDrinkPrice(drink, catalogue);
-        }
-        invoice.setTotal(total);
-        return invoice;
+    private Catalogue catalogue;
+
+    public Cashier(Catalogue catalogue) {
+        this.catalogue = catalogue;
     }
 
-    public double getDrinkPrice(Drink drink, Catalogue catalogue){
-        if(catalogue.getCatalogue().containsKey(drink))
-            return catalogue.getCatalogue().get(drink);
+    public Invoice checkout(DrinkCart cart){
+        HashMap<Drink, Double> checkedDrinks = new HashMap<>();
+        double total = 0;
+        for (Drink drink: cart.getDrinks()) {
+            boolean drinkInCatalogue;
+            try{
+                drinkInCatalogue = catalogue.isDrinkCatalogued(drink);
+            }
+            catch (UncataloguedDrinkExc e){
+                System.out.println(e.getMessage() + " sera ignorada");
+                drinkInCatalogue = false;
+            }
+            if(drinkInCatalogue)
+                checkedDrinks.put(drink, getDrinkPrice(drink));
+                total += getDrinkPrice(drink);
+        }
+        return new Invoice(checkedDrinks, total);
+    }
 
-        throw new NoSuchDrinkExc();
+    public double getDrinkPrice(Drink drink){
+        boolean drinkInCatalogue;
+        try{
+            drinkInCatalogue = catalogue.isDrinkCatalogued(drink);
+        }
+        catch (UncataloguedDrinkExc e){
+            System.out.println(e.getMessage());
+            drinkInCatalogue = false;
+        }
+        if(drinkInCatalogue)
+            return catalogue.getDrinkPrice(drink);
+
+        else return 0;
     }
 }

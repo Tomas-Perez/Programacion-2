@@ -9,16 +9,9 @@ public class Invoice {
     private HashMap<Drink, Double> drinks = new HashMap<>();
     private double total;
 
-    public void setTotal(double total) {
+    public Invoice(HashMap<Drink, Double> drinks, double total) {
+        this.drinks = drinks;
         this.total = total;
-    }
-
-    public void addDrink(Drink drink, double value){
-        drinks.put(drink, value);
-    }
-
-    public void removeDrink(Drink drink){
-        drinks.remove(drink);
     }
 
     public double getTotal() {
@@ -33,6 +26,6 @@ public class Invoice {
         if (drinks.containsKey(drink)) {
             return drinks.get(drink);
         }
-        throw new NoSuchDrinkExc();
+        throw new NoSuchDrinkExc(drink.getType());
     }
 }

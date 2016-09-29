@@ -3,7 +3,7 @@ package ParcialEj2;
 /**
  * Created by Tomas on 23-Sep-16.
  */
-public abstract class Drink {
+public class Drink {
     private double sizeInMl;
     private String type;
 

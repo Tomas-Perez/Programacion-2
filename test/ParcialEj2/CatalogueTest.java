@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
  * Created by Toto on 29-Sep-16.
  */
 public class CatalogueTest {
+
     Catalogue catalogue = new Catalogue();
     Drink coke = new Drink(5000, "coke");
     Drink wine = new Drink(2000, "wine");
@@ -17,6 +18,17 @@ public class CatalogueTest {
     BiggerThan2Litres biggerThan2Litres = new BiggerThan2Litres();
     NameLongerThan5 nameLongerThan5 = new NameLongerThan5();
     PriceHigherThan15 priceHigherThan15 = new PriceHigherThan15();
+
+    @Test
+    public void isDrinkCatalogued() throws Exception {
+        catalogue.catalogueDrink(coke, 10);
+        assertTrue(catalogue.isDrinkCatalogued(coke));
+    }
+
+    @Test (expected = UncataloguedDrinkExc.class)
+    public void isDrinkCataloguedExc() throws Exception {
+        catalogue.isDrinkCatalogued(coke);
+    }
 
     @Test
     public void catalogueDrink() throws Exception {

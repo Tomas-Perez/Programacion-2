@@ -17,17 +17,9 @@ public class Cashier {
         HashMap<Drink, Double> checkedDrinks = new HashMap<>();
         double total = 0;
         for (Drink drink: cart.getDrinks()) {
-            boolean drinkInCatalogue;
-            try{
-                drinkInCatalogue = catalogue.isDrinkCatalogued(drink);
-            }
-            catch (UncataloguedDrinkExc e){
-                System.out.println(e.getMessage() + " sera ignorada");
-                drinkInCatalogue = false;
-            }
-            if(drinkInCatalogue)
-                checkedDrinks.put(drink, getDrinkPrice(drink));
-                total += getDrinkPrice(drink);
+            double drinkPrice = getDrinkPrice(drink);
+            checkedDrinks.put(drink, drinkPrice);
+            total += drinkPrice;
         }
         return new Invoice(checkedDrinks, total);
     }

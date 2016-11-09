@@ -27,7 +27,7 @@ public class Client {
         }
 
         catch (NoSuchInversionExc e){
-            System.out.println(e.getMessage());
+            System.out.println(e);
         }
     }
 

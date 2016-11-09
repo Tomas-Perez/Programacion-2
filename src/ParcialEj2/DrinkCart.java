@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by Tomas on 23-Sep-16.
  */
 public class DrinkCart {
-    private ArrayList<Drink> drinks =  new ArrayList<Drink>();
+    private ArrayList<Drink> drinks =  new ArrayList<>();
 
     public void addDrink(Drink drink){
         drinks.add(drink);

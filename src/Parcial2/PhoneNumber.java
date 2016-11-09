@@ -1,15 +1,14 @@
 package Parcial2;
 
 public class PhoneNumber {
-
     private int countryCode;
     private int areaCode;
-    private int uniqueNumber;
+    private int number;
 
-    public PhoneNumber(Long number) {
-        this.countryCode = ;
+    public PhoneNumber(int countryCode, int areaCode, int number) {
+        this.countryCode = countryCode;
         this.areaCode = areaCode;
-        this.uniqueNumber = uniqueNumber;
+        this.number = number;
     }
 
     public int getCountryCode() {
@@ -20,7 +19,7 @@ public class PhoneNumber {
         return areaCode;
     }
 
-    public int getUniqueNumber() {
-        return uniqueNumber;
+    public int getNumber() {
+        return number;
     }
 }

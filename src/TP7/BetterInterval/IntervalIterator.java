@@ -19,10 +19,8 @@ public class IntervalIterator implements Iterator<Integer> {
         if(hasNext()) return interval.at(index++);
         throw new NoNextExc();
     }
-
     public void remove() {
         interval.remove(index++);
     }
-
 
 }

@@ -2,30 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09644383-8609-44b4-9cb8-fc70c342290a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial1Universidad/AccessCard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial1Universidad/Building.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial1Universidad/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial1Universidad/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial1Universidad/Student.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial1Universidad/Turnstile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/Call.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/FareCatalogue.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Call/Call.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Call/CallComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Call/CallExc/InvalidDurationExc.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Call/CallInProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Call/InternationalCall.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Call/LocalCall.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Call/LongDistanceCall.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/CallHistory.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/Client.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/CommunicationSystem.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/CallHistory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/CallType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/Comparators/CallCostComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/Comparators/CallDurationComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/Comparators/CallTypeComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/Farer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/IntFarer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/LocalFarer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Parcial2/NatFarer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TP7/Stack/IntegerAscendingComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TP7/Stack/Stack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TP7/Stack/StackList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TP8/LazyFibonacci/LazyFibonacci.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TP8/Set/Set.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Parcial2/CallHistoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/Parcial2/FarerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TP7/Stack/StackListTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TP8/LazyFibonacci/LazyFibonacciTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TP8/Set/SetTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Parcial2/FareCatalogue.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parcial/Client.java" afterPath="$PROJECT_DIR$/src/Parcial/Client.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parcial/NoSuchInversionExc.java" afterPath="$PROJECT_DIR$/src/Parcial/NoSuchInversionExc.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parcial2/PhoneNumber.java" afterPath="$PROJECT_DIR$/src/Parcial2/PhoneNumber.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ParcialEj2/DrinkCart.java" afterPath="$PROJECT_DIR$/src/ParcialEj2/DrinkCart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP7/BetterInterval/IntervalIterator.java" afterPath="$PROJECT_DIR$/src/TP7/BetterInterval/IntervalIterator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Parcial2/Call.java" afterPath="$PROJECT_DIR$/src/Parcial2/Call.java" />
     </list>
     <ignored path="Programación 2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,124 +47,121 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parcial/Client.java">
+      <file leaf-file-name="Call.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/Call.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="704">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessCard.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/AccessCard.java">
+      <file leaf-file-name="CallHistory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/CallHistory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="222">
+              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#251#252#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#303#304#0" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Building.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Building.java">
+      <file leaf-file-name="CallHistoryTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Parcial2/CallHistoryTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/CallType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FarerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Parcial2/FarerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhoneNumber.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/PhoneNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Farer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/Farer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CallDurationComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/Comparators/CallDurationComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+              <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
               <folding>
-                <element signature="e#242#243#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Turnstile.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Turnstile.java">
+      <file leaf-file-name="CallCostComparator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/Comparators/CallCostComparator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#265#266#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#337#338#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Student.java">
+      <file leaf-file-name="IntFarer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Parcial2/IntFarer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            <state relative-caret-position="176">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
-                <element signature="e#179#180#0" expanded="true" />
-                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BetterInterval.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TP7/BetterInterval/BetterInterval.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntervalIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TP7/BetterInterval/IntervalIterator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#537#538#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BetterIntervalTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/TP7/BetterInterval/BetterIntervalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -178,8 +173,9 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
+        <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -194,29 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Parcial/PlazoFijo.java" />
-        <option value="$PROJECT_DIR$/src/Parcial/FixedTerm.java" />
-        <option value="$PROJECT_DIR$/test/Parcial/ParcialTest.java" />
-        <option value="$PROJECT_DIR$/test/Parcial/InversionTest.java" />
-        <option value="$PROJECT_DIR$/test/Parcial/PortfolioTest.java" />
-        <option value="$PROJECT_DIR$/test/Parcial/ClientTest.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/Drink.java" />
-        <option value="$PROJECT_DIR$/test/ParcialEj2/DrinkCartTest.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/UncataloguedDrink.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/DrinkCart.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/UncataloguedDrinkExc.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/Catalogue.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/NoSuchDrinkExc.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/Invoice.java" />
-        <option value="$PROJECT_DIR$/test/ParcialEj2/CatalogueTest.java" />
-        <option value="$PROJECT_DIR$/test/ParcialEj2/InvoiceTest.java" />
-        <option value="$PROJECT_DIR$/src/ParcialEj2/Cashier.java" />
-        <option value="$PROJECT_DIR$/test/ParcialEj2/CashierTest.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/ComunicationSystem.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/Call/CallExc/InvalidDurationExc.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/Client.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/Call/Call.java" />
         <option value="$PROJECT_DIR$/src/Parcial2/Call/CallComparator.java" />
         <option value="$PROJECT_DIR$/src/Parcial2/Call/InternationalCall.java" />
         <option value="$PROJECT_DIR$/src/Parcial2/Call/LocalCall.java" />
@@ -224,13 +197,8 @@
         <option value="$PROJECT_DIR$/src/Parcial2/Call/CallInProgress.java" />
         <option value="$PROJECT_DIR$/src/Parcial2/CommunicationSystem.java" />
         <option value="$PROJECT_DIR$/src/Parcial2/PhoneNumber.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/FareCatalogue.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/LocalFarer.java" />
         <option value="$PROJECT_DIR$/src/Parcial2/NationalFarer.java" />
         <option value="$PROJECT_DIR$/src/Parcial2/InternationalFarer.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/Call.java" />
-        <option value="$PROJECT_DIR$/test/Parcial2/FarerTest.java" />
-        <option value="$PROJECT_DIR$/src/Parcial2/Farer.java" />
         <option value="$PROJECT_DIR$/src/Parcial/Portfolio.java" />
         <option value="$PROJECT_DIR$/src/Parcial/NoSuchInversionExc.java" />
         <option value="$PROJECT_DIR$/src/Parcial/Client.java" />
@@ -245,6 +213,34 @@
         <option value="$PROJECT_DIR$/test/TP7/BetterInterval/BetterIntervalTest.java" />
         <option value="$PROJECT_DIR$/src/Parcial1Universidad/Student.java" />
         <option value="$PROJECT_DIR$/src/Parcial1Universidad/Building.java" />
+        <option value="$PROJECT_DIR$/src/TP7/NiceStack.java" />
+        <option value="$PROJECT_DIR$/src/TP7/Stack/NiceStack.java" />
+        <option value="$PROJECT_DIR$/src/TP7/Stack/Stack.java" />
+        <option value="$PROJECT_DIR$/src/TP7/Stack/IntegerComparator.java" />
+        <option value="$PROJECT_DIR$/src/TP7/Stack/IntegerAscendingComparator.java" />
+        <option value="$PROJECT_DIR$/src/TP7/Stack/StackList.java" />
+        <option value="$PROJECT_DIR$/test/TP7/Stack/StackListTest.java" />
+        <option value="$PROJECT_DIR$/src/LazyFibonacci.java" />
+        <option value="$PROJECT_DIR$/test/TP7/Stack/LazyFibonacciTest.java" />
+        <option value="$PROJECT_DIR$/test/TP8/LazyFibonacci/LazyFibonacciTest.java" />
+        <option value="$PROJECT_DIR$/src/TP8/LazyFibonacci/LazyFibonacci.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/CallType.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/IntFarer.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/LocalFarer.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/NatFarer.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/FareCatalogue.java" />
+        <option value="$PROJECT_DIR$/test/Parcial2/FarerTest.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/Farer.java" />
+        <option value="$PROJECT_DIR$/test/TP8/Set/SetTest.java" />
+        <option value="$PROJECT_DIR$/src/TP8/Set/Set.java" />
+        <option value="$PROJECT_DIR$/src/ParcialDrinkCart/AwesomeDrinkCart.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/Comparators/CallTypeComparator.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/Comparators/CallDurationComparator.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/Comparators/CallCostComparator.java" />
+        <option value="$PROJECT_DIR$/test/Parcial2/CallTest.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/Call.java" />
+        <option value="$PROJECT_DIR$/src/Parcial2/CallHistory.java" />
+        <option value="$PROJECT_DIR$/test/Parcial2/CallHistoryTest.java" />
       </list>
     </option>
   </component>
@@ -352,9 +348,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programación 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Programación 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -387,10 +393,6 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BetterInterval" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -405,48 +407,8 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Table" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP7" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BetterInterval" />
+              <option name="myItemId" value="Parcial2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -478,68 +440,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ParcialEj2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parcial1Universidad" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Parcial" />
+              <option name="myItemId" value="Parcial2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Programación 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
@@ -554,10 +470,10 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Parcial2" />
+      <recent name="TP8.Set" />
+      <recent name="TP8.LazyFibonacci" />
+      <recent name="TP7.Stack" />
       <recent name="ParcialEj2" />
-      <recent name="Parcial" />
-      <recent name="TP5.Function" />
-      <recent name="TP4.Employee" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Documentos Tomás\Google Drive\Universidad\Introducción a la Programación 2\Programación 2\src\Calculator" />
@@ -574,19 +490,19 @@
       <recent name="F:\Documentos Tomás\Google Drive\Universidad\Introducción a la Programación 2\Programación 2\src\TP4\Bank2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BetterIntervalTest.iterator">
-    <configuration default="false" name="CashierTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CallHistoryTest.sortType">
+    <configuration default="false" name="SetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ParcialEj2.*" />
+          <option name="PATTERN" value="TP8.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programación 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ParcialEj2" />
-      <option name="MAIN_CLASS_NAME" value="ParcialEj2.CashierTest" />
+      <option name="PACKAGE_NAME" value="TP8.Set" />
+      <option name="MAIN_CLASS_NAME" value="TP8.Set.SetTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -601,19 +517,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CashierTest.checkoutExcs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="SetTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ParcialEj2.*" />
+          <option name="PATTERN" value="TP8.Set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programación 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ParcialEj2" />
-      <option name="MAIN_CLASS_NAME" value="ParcialEj2.CashierTest" />
-      <option name="METHOD_NAME" value="checkoutExcs" />
+      <option name="PACKAGE_NAME" value="TP8.Set" />
+      <option name="MAIN_CLASS_NAME" value="TP8.Set.SetTest" />
+      <option name="METHOD_NAME" value="iterator" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -627,33 +543,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="CashierTest.getDrinkPriceExcs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ParcialEj2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="Programación 2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ParcialEj2" />
-      <option name="MAIN_CLASS_NAME" value="ParcialEj2.CashierTest" />
-      <option name="METHOD_NAME" value="getDrinkPriceExcs" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="FarerTest.fare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CallHistoryTest.getCalls" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="Parcial2.*" />
@@ -664,8 +554,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Parcial2" />
-      <option name="MAIN_CLASS_NAME" value="Parcial2.FarerTest" />
-      <option name="METHOD_NAME" value="fare" />
+      <option name="MAIN_CLASS_NAME" value="Parcial2.CallHistoryTest" />
+      <option name="METHOD_NAME" value="getCalls" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -679,19 +569,45 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BetterIntervalTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CallHistoryTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="TP7.BetterInterval.*" />
+          <option name="PATTERN" value="Parcial2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="Programación 2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="TP7.BetterInterval" />
-      <option name="MAIN_CLASS_NAME" value="TP7.BetterInterval.BetterIntervalTest" />
-      <option name="METHOD_NAME" value="iterator" />
+      <option name="PACKAGE_NAME" value="Parcial2" />
+      <option name="MAIN_CLASS_NAME" value="Parcial2.CallHistoryTest" />
+      <option name="METHOD_NAME" value="sort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="CallHistoryTest.sortType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Parcial2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="Programación 2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Parcial2" />
+      <option name="MAIN_CLASS_NAME" value="Parcial2.CallHistoryTest" />
+      <option name="METHOD_NAME" value="sortType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -1067,19 +983,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CashierTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CashierTest.checkoutExcs" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.CashierTest.getDrinkPriceExcs" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FarerTest.fare" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.BetterIntervalTest.iterator" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SetTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SetTest.iterator" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CallHistoryTest.getCalls" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CallHistoryTest.sort" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CallHistoryTest.sortType" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.BetterIntervalTest.iterator" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FarerTest.fare" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CashierTest.getDrinkPriceExcs" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CashierTest.checkoutExcs" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CashierTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CallHistoryTest.sortType" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CallHistoryTest.sort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CallHistoryTest.getCalls" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SetTest.iterator" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SetTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1146,7 +1062,10 @@
       <workItem from="1478301010928" duration="6000" />
       <workItem from="1478301174456" duration="2771000" />
       <workItem from="1478376614227" duration="1376000" />
-      <workItem from="1478644806984" duration="6492000" />
+      <workItem from="1478644806984" duration="7184000" />
+      <workItem from="1478714083439" duration="17036000" />
+      <workItem from="1478736162168" duration="1696000" />
+      <workItem from="1478811998313" duration="12172000" />
     </task>
     <task id="LOCAL-00001" summary="Testing">
       <created>1474588421850</created>
@@ -1169,43 +1088,50 @@
       <option name="project" value="LOCAL" />
       <updated>1475190985626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Parcial 1 Exercise 1 trying things out">
+      <created>1478663432277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1478663432277</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BetterIntervalTest_iterator - 2016.11.08 at 21h 01m 00s.xml">
-      <configuration name="BetterIntervalTest.iterator" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_getCalls - 2016.11.10 at 20h 27m 15s.xml">
+      <configuration name="CallHistoryTest.getCalls" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashierTest_checkoutExcs - 2016.09.29 at 20h 32m 52s.xml">
-      <configuration name="CashierTest.checkoutExcs" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_getCalls - 2016.11.10 at 20h 32m 47s.xml">
+      <configuration name="CallHistoryTest.getCalls" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashierTest_checkoutExcs - 2016.09.29 at 20h 34m 33s.xml">
-      <configuration name="CashierTest.checkoutExcs" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_getCalls - 2016.11.10 at 20h 33m 00s.xml">
+      <configuration name="CallHistoryTest.getCalls" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashierTest_checkoutExcs - 2016.09.29 at 20h 35m 17s.xml">
-      <configuration name="CashierTest.checkoutExcs" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_sort - 2016.11.10 at 20h 40m 28s.xml">
+      <configuration name="CallHistoryTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CashierTest_getDrinkPriceExcs - 2016.09.29 at 20h 36m 01s.xml">
-      <configuration name="CashierTest.getDrinkPriceExcs" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_sort - 2016.11.10 at 20h 40m 41s.xml">
+      <configuration name="CallHistoryTest.sort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CatalogueTest - 2016.09.29 at 20h 20m 09s.xml">
-      <configuration name="CatalogueTest" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_sortType - 2016.11.10 at 20h 43m 07s.xml">
+      <configuration name="CallHistoryTest.sortType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CatalogueTest_catalogueDrink - 2016.09.29 at 19h 23m 04s.xml">
-      <configuration name="CatalogueTest.catalogueDrink" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_sortType - 2016.11.10 at 20h 43m 16s.xml">
+      <configuration name="CallHistoryTest.sortType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CatalogueTest_filter - 2016.09.29 at 19h 28m 25s.xml">
-      <configuration name="CatalogueTest.filter" configurationId="JUnit" />
+    <history-entry file="CallHistoryTest_sortType - 2016.11.10 at 20h 45m 20s.xml">
+      <configuration name="CallHistoryTest.sortType" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FarerTest_fare - 2016.11.04 at 20h 47m 00s.xml">
-      <configuration name="FarerTest.fare" configurationId="JUnit" />
+    <history-entry file="SetTest_iterator - 2016.11.10 at 19h 04m 46s.xml">
+      <configuration name="SetTest.iterator" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FarerTest_fare - 2016.11.04 at 20h 48m 22s.xml">
-      <configuration name="FarerTest.fare" configurationId="JUnit" />
+    <history-entry file="SetTest_iterator - 2016.11.10 at 19h 04m 59s.xml">
+      <configuration name="SetTest.iterator" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130231000" />
+    <option name="totallyTimeSpent" value="161827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="2578" height="1408" extended-state="0" />
@@ -1218,7 +1144,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296617" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3241542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3241542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980832" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1228,8 +1154,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988985" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1282,7 +1208,8 @@
     <MESSAGE value="Testing" />
     <MESSAGE value="More Object Oriented, everything's in english now. Spanish is for peasants" />
     <MESSAGE value="DrinkCart even more OO, added exc for uncatalogued drinks, drink is not an abstract class anymore, no need" />
-    <option name="LAST_COMMIT_MESSAGE" value="DrinkCart even more OO, added exc for uncatalogued drinks, drink is not an abstract class anymore, no need" />
+    <MESSAGE value="Parcial 1 Exercise 1 trying things out" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parcial 1 Exercise 1 trying things out" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1294,7 +1221,7 @@
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="72" />
+      <option name="time" value="98" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1303,199 +1230,69 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/ParcialEj2/DrinkCartTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Parcial/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="484">
+          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ParcialEj2/InvoiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Building.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ParcialEj2/CatalogueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/UncataloguedDrinkExc.java">
+    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Turnstile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ParcialEj2/CashierTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TP7/Table/TableElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1947">
-          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/Cashier.java">
+    <entry file="file://$PROJECT_DIR$/src/TP7/Stack/IntegerAscendingComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/Catalogue.java">
+    <entry file="file://$PROJECT_DIR$/test/TP7/BetterInterval/BetterIntervalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="946">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2.java" />
-    <entry file="file://$PROJECT_DIR$/src/TP7/Table/Table.java">
+    <entry file="file://$PROJECT_DIR$/test/TP7/Stack/LazyFibonacciTest.java" />
+    <entry file="file://$PROJECT_DIR$/test/TP7/Stack/StackListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="-66">
+          <caret line="47" column="45" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TPFinalProgramacion2/src/RUberNSystem/Logistics/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/CallHistory.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call/CallComparator.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call/Call.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call/InternationalCall.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call/LocalCall.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call/LongDistanceCall.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call/CallInProgress.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call/CallExc/InvalidDurationExc.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Client.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/CommunicationSystem.java" />
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/PhoneNumber.java">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/NationalFarer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/LocalFarer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#418#419#0" expanded="false" />
-            <element signature="e#450#451#0" expanded="false" />
-            <element signature="e#488#489#0" expanded="false" />
-            <element signature="e#517#518#0" expanded="false" />
-            <element signature="e#548#549#0" expanded="false" />
-            <element signature="e#575#576#0" expanded="false" />
-            <element signature="e#607#608#0" expanded="false" />
-            <element signature="e#638#639#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/Parcial2/FarerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial/Portfolio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial/Inversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#342#343#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/DrinkCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Professor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Classroom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/Farer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/InternationalFarer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="9" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial2/FareCatalogue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1507,13 +1304,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/Cashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/Catalogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/AccessCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP7/Stack/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP7/Stack/StackList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/FareCatalogue.java" />
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4972">
+          <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TP8/LazyFibonacci/LazyFibonacciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ParcialEj2/Drink.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#376#377#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/LocalFarer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding>
+            <element signature="e#145#146#0" expanded="false" />
+            <element signature="e#193#194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/NatFarer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP7/BetterInterval/BetterInterval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1533,17 +1429,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial/FixedTerm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial/NoSuchInversionExc.java">
+    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/NoSuchDrinkExc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1551,7 +1437,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial/NoMoneyExc.java">
+    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/PriceHigherThan15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -1559,105 +1445,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/UncataloguedDrinkExc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP7/BetterInterval/BetterInterval.java">
+    <entry file="file://$PROJECT_DIR$/src/ParcialEj2/Filter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TP7/BetterInterval/IntervalIterator.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP8/Set/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
           <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#666#667#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TP7/BetterInterval/BetterIntervalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TP8/LazyFibonacci/LazyFibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParcialDrinkCart/NiceCatalogue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParcialDrinkCart/CoolCashier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParcialDrinkCart/DecentInvoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParcialDrinkCart/AwesomeDrinkCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TP8/Set/SetTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/AccessCard.java">
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/Comparators/CallTypeComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Building.java">
+    <entry file="file://$PROJECT_DIR$/test/Parcial2/CallTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/IntFarer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        <state relative-caret-position="176">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parcial1Universidad/Turnstile.java">
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/Farer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/Call.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/CallType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/CallHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/Comparators/CallDurationComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/Comparators/CallCostComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Parcial2/FarerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="16" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Parcial2/CallHistoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="86" column="64" selection-start-line="86" selection-start-column="64" selection-end-line="86" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parcial2/PhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

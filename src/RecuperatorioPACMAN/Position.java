@@ -1,4 +1,4 @@
-package Recuperatorio;
+package RecuperatorioPACMAN;
 
 public class Position {
     private int x;

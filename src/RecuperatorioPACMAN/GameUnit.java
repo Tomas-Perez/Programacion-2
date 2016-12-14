@@ -1,4 +1,4 @@
-package Recuperatorio;
+package RecuperatorioPACMAN;
 
 public abstract class GameUnit {
     private Position position;

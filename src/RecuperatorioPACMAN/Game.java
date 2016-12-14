@@ -1,4 +1,4 @@
-package Recuperatorio;
+package RecuperatorioPACMAN;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,10 +6,16 @@ import java.util.stream.Collectors;
 
 public class Game {
     private Pacman pacman;
-    private ArrayList<Ghost> ghosts;
-    private ArrayList<Food> foods;
+    private ArrayList<Ghost> ghosts = new ArrayList<>();
+    private ArrayList<Food> foods = new ArrayList<>();
     private int sizeX;
     private int sizeY;
+
+    public Game(Pacman pacman, int sizeX, int sizeY) {
+        this.pacman = pacman;
+        this.sizeX = sizeX;
+        this.sizeY = sizeY;
+    }
 
     public void addFood(Food food){
         isValidPosition(food.getPosition());
